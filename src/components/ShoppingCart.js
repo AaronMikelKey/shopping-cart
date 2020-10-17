@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ShoppingCart = (props) => {
+const shoppingcart = () => {
     return (
         <div>
             <h1>Hello from profile</h1>
@@ -8,4 +8,4 @@ const ShoppingCart = (props) => {
     );
 };
 
-export default ShoppingCart;
+export default shoppingcart;

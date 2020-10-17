@@ -1,7 +1,8 @@
 import React from 'react';
 import NavBar from './components/NavBar';
+import './styles/App.css';
 
-function Home() {
+function App() {
   return (
     <div className="App">
       <NavBar />
@@ -10,4 +11,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default App;
