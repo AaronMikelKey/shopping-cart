@@ -13,7 +13,7 @@ const NavBar = (props) => {
                     <li><h1 className="navbar-brand title">Shopping Page</h1></li>
                     <li><NavLink 
                         className="navbar-item"
-                        to="/"
+                        to="/home"
                         activeStyle={{
                             color: "rgb(12, 136, 136)"
                         }}
