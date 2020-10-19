@@ -28,7 +28,7 @@ const NavBar = (props) => {
                         }}
                         >
                             <FontAwesomeIcon className="mr-3" icon={faShoppingCart} />
-                            Shopping Cart
+                            { props.cartAmount } Shopping Cart
                     </NavLink></li>
                     <li><NavLink 
                         className="navbar-item"

@@ -1,17 +1,13 @@
 import React from 'react';
 import Card from './Card';
-import NavBar from './NavBar';
 
-const ShoppingPage = (props) => {
+const ShoppingPage = ({ items, addItem }) => {
 
     
     return (
-        <div>
-            <NavBar />
             <div className="columns is-variable is-3">
-                <Card {...props}/>
+                {items.map((item) => <Card key={item.name} id={item.name} {...item} addItem={addItem} />)}
             </div>
-        </div>
     )
 }
 
